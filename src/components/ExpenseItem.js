@@ -34,8 +34,8 @@ const ExpenseItem = (props) => {
         <tr>
         <td>{props.name}</td>
         <td>{currency}{props.cost}</td>
-        <td><button onClick={event=> increaseAllocation(props.name)}><img src="" alt="+"/></button></td>
-        <td><button onClick={event=> decreaseAllocation(props.name)}><img src="" alt="-"/></button></td>
+        <td><button onClick={event=> increaseAllocation(props.name)}><img src="https://raw.githubusercontent.com/ngzhiyu97/ejtos-react_budget_app/main/src/images/plusbutton.jpg" alt="+"/></button></td>
+        <td><button onClick={event=> decreaseAllocation(props.name)}><img src="https://raw.githubusercontent.com/ngzhiyu97/ejtos-react_budget_app/main/src/images/minusbutton.jpg" alt="-"/></button></td>
         <td><TiDelete size='1.5em' onClick={handleDeleteExpense}></TiDelete></td>
         </tr>
     );
