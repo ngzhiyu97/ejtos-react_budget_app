@@ -27,6 +27,7 @@ const CurrencyDropDown = () =>{
             <option value="€" name="Euro">€ Euro</option>
             <option value="₹" name="Ruppee">₹ Ruppee</option>
         </select>
+        
     );
 
 }
